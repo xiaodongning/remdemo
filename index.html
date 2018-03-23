@@ -1,14 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>REM LAYOUT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>REM LAYOUT</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    var deviceWidth = document.documentElement.clientWidth;
+    if (deviceWidth > 750) deviceWidth = 750;
+    document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+  </script>
 </head>
+
 <body>
-    <div>
-        hello world!
+  <div class="header">
+    <div class="header-content">
+      <h1>懂球帝</h1>
+      <div class="nav-bar">
+        <a class="current" href="#">首页</a>
+        <a href="#">比赛</a>
+        <a href="#">数据</a>
+      </div>
     </div>
+    <div class="header-nav">
+      <a class="active">头条</a>
+      <a>热门</a>
+      <a>中超</a>
+      <a>足彩</a>
+      <a>集锦</a>
+    </div>
+  </div>
+  <div class="banner">
+    <img src="images/banner.jpg" width="100%" alt=""> </div>
+  <div class="container">
+    <ul class="news-list">
+      <li>
+        <a href="">
+          <div class="news-list-side">
+            <img src="images/news.jpg" alt=""> </div>
+          <div class="news-list-content">
+            <h3 class="title">半场战报：国足0-4威尔士半场战报：国足0-4威尔士半场战报：国足0-4威尔士</h3>
+            <p>上半场贝尔两射一传，沃克斯两传一射，上半场贝尔两射一传，沃克斯两传一射，上半场贝尔两射一传，沃克斯两传一射，哈里-威尔逊破门。</p>
+            <div class="news-list-tag">
+              <span class="news-list-comment">139评论</span>
+              <span class="news-list-type">置顶</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="news-list-side">
+            <img src="images/news.jpg" alt=""> </div>
+          <div class="news-list-content">
+            <h3 class="title">半场战报：国足0-4威尔士</h3>
+            <p>上半场贝尔两射一传，沃克斯两传一射，哈里-威尔逊破门。</p>
+            <div class="news-list-tag">
+              <span class="news-list-comment">139评论</span>
+              <span class="news-list-type">置顶</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="news-list-side">
+            <img src="images/news.jpg" alt=""> </div>
+          <div class="news-list-content">
+            <h3 class="title">半场战报：国足0-4威尔士</h3>
+            <p>上半场贝尔两射一传，沃克斯两传一射，哈里-威尔逊破门。</p>
+            <div class="news-list-tag">
+              <span class="news-list-comment">139评论</span>
+              <span class="news-list-type">置顶</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="news-list-side">
+            <img src="images/news.jpg" alt=""> </div>
+          <div class="news-list-content">
+            <h3 class="title">半场战报：国足0-4威尔士</h3>
+            <p>上半场贝尔两射一传，沃克斯两传一射，哈里-威尔逊破门。</p>
+            <div class="news-list-tag">
+              <span class="news-list-comment">139评论</span>
+              <span class="news-list-type">置顶</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="news-list-side">
+            <img src="images/news.jpg" alt=""> </div>
+          <div class="news-list-content">
+            <h3 class="title">半场战报：国足0-4威尔士</h3>
+            <p>上半场贝尔两射一传，沃克斯两传一射，哈里-威尔逊破门。</p>
+            <div class="news-list-tag">
+              <span class="news-list-comment">139评论</span>
+              <span class="news-list-type">置顶</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="news-list-side">
+            <img src="images/news.jpg" alt=""> </div>
+          <div class="news-list-content">
+            <h3 class="title">半场战报：国足0-4威尔士</h3>
+            <p>上半场贝尔两射一传，沃克斯两传一射，哈里-威尔逊破门。</p>
+            <div class="news-list-tag">
+              <span class="news-list-comment">139评论</span>
+              <span class="news-list-type">置顶</span>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
 </body>
+
 </html>

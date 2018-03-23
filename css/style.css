@@ -1,0 +1,150 @@
+body,
+ul,
+li,
+p,
+h1,
+h3,
+a {
+  margin: 0;
+  padding: 0;
+  
+}
+a{
+  color:#3c3c3c;
+  text-decoration: none;
+}
+body {
+  font-size: .28rem;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, PingFang SC, Source Han Sans CN, Hiragino Sans GB, Microsoft YaHei,
+    WenQuanYi Micro Hei, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+h3{
+  font-weight: normal;
+}
+img{
+  display: block;
+}
+@media screen and (max-width: 6.42rem) {
+  .header-content h1 {
+    font-size: .32rem;
+  }
+}
+@media screen and (min-width: 6.42rem) and (max-width: 8rem) {
+  .header-content h1 {
+    font-size: .36rem;
+  }
+}
+@media screen and (min-width: 8rem) {
+  .header-content h1 {
+    font-size: .4rem;
+  }
+}
+.header-content {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: #fff;
+  background: #16b13a;
+}
+.header-content>h1{
+  float:left;
+  margin-left: .46rem;
+}
+.nav-bar{
+  float:right;
+  margin-right:.46rem;
+}
+.nav-bar a{
+  display:inline-block;
+  color:#fff;
+  margin:0 .2rem;
+  position: relative;
+}
+.nav-bar a.current::after{
+  content:' ';
+  display: block;
+  position: absolute;
+  bottom:0;
+  left:50%;
+  margin-left:-.1rem;
+  border:.12rem solid transparent;
+  border-bottom-color:#fff;
+}
+.header-nav{
+  height:.66rem;
+  line-height: .66rem;
+}
+.header-nav a{
+  display: inline-block;
+  height:100%;
+  margin: 0 .22rem;
+}
+.active{
+  color:#0aac2d;
+  position: relative;
+}
+.active::after{
+  content: '';
+  position: absolute;
+  height:.05rem;
+  background: #0aac2d;
+  width: 100%;
+  left:0;
+  bottom: 0;
+}
+.news-list-side{
+  width: 2rem;
+  height:1.5rem;
+  float:left;
+}
+.news-list img{
+  width:100%;
+  display: block;
+}
+.news-list li{
+  padding:.2rem;
+  border-bottom:1px solid #eee;
+}
+.news-list a{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.news-list-content{
+  overflow: hidden;
+  padding-left: .2rem
+}
+.title{
+  font-size:14px;
+  color:#000;
+  margin-bottom: .08rem; 
+  line-height: .36rem;
+  height:.36rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.news-list-content p{
+  font-size:12px;
+  line-height: .36rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient: vertical;
+}
+.news-list-tag{
+  font-size:12px;
+  position: absolute;
+  right:0;
+  bottom:0;
+}
+.news-list-type{
+  display: inline-block;
+  border:1px solid #437ec2;
+  color:#437ec2;
+  padding:0 .05rem;
+}
